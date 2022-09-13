@@ -9,9 +9,15 @@
 <p th:text="${'Author of the book: ' + books.getAuthor()}">VALUE</p>
 <p th:text="${'Year of production: ' + books.getYear()}">VALUE</p>
 
+<div th:if = "${owner}" >
+    <span>Книга сейчас у </span> <span th:text = "${owner.getFirst_name() + ' ' + owner.getSurname() + ' ' + owner.getPatronymic()}" >Owner</span>
+    <form th:method="Patch" th:action="@{/people/book/free/{book_id}(book_id=${books.getBook_id()})}">
+        <input type = "submit" value="Освободить книгу">
+    </form>
 
+</div>
 
-<div th:if = "${people}" >
+<div th:if= "${people}" >
     <span>Эта книга свободна. Кому назначить ее?</span>
 
 
@@ -29,13 +35,7 @@
 </form >
 </div>
 
-<div th:if = "${owner}" >
-    <span>Книга сейчас у </span> <span th:text = "${owner.getFirst_name() + ' ' + owner.getSurname() + ' ' + owner.getPatronymic()}" >Owner</span>
-    <form th:method="Patch" th:action="@{/people/book/free/{book_id}(book_id=${books.getBook_id()})}">
-        <input type = "submit" value="Освободить книгу">
-    </form>
 
-</div>
 
 
 <br/>

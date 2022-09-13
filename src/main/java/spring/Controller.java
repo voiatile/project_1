@@ -3,8 +3,10 @@ package spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.SQLException;
 import java.util.Optional;
 
 
@@ -42,12 +44,16 @@ public class Controller {
     public String create(Model model) {
         model.addAttribute("person" , new Person());
 
+
         return "new";
     }
 
     @PostMapping
     public String save(@ModelAttribute ("person") Person person) {
         personDAO.save(person);
+
+
+
         return "redirect:/people";
     }
 
@@ -86,9 +92,11 @@ public class Controller {
                             Model model,
                             @ModelAttribute("person") Person person
 
-                         ) {
+                         )  {
         model.addAttribute("books" ,bookDAO.show(id));
         Optional<Person> bookowner = bookDAO.getBookOwner(id);
+
+
 
 
         if (bookowner.isPresent()) {
@@ -96,7 +104,6 @@ public class Controller {
         }
         else {
             model.addAttribute("people", personDAO.show_all());}
-
 
 
         return "book/show";

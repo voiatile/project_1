@@ -5,6 +5,9 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 import java.util.Optional;
 
@@ -52,6 +55,8 @@ public class BookDAO {
         String sql = "select * from book join person p on book.id = p.id WHERE book_id=?";
         return jdbcTemplate.query(sql, new Object[]{id}, new BeanPropertyRowMapper<>(Person.class)).stream().findAny();
     }
+
+
     public void free(int id) {
         String sql = "UPDATE book SET id=null  WHERE book_id=?";
         jdbcTemplate.update(sql,  id);
