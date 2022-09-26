@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create new person</title>
+</head>
+<body>
+
+<form th:method="POST" th:action="@{/people/book/search}" >
+    <label for="title">Enter title of book: </label>
+    <input type="text"  id="title" name="title"/>
+    <br/>
+    <input type="submit" value="Search!"/>
+</form>
+
+<div th:if = "${book}">
+    <div th:if = "${book.isEmpty()}" >
+        <span>Книга не найдена</span>
+    </div>
+
+    <div th:each = "books : ${book}">
+        <p th:text = "${books.getTitle() + ' ' + books.getAuthor()}">book</p>
+
+        <div th:if = "${books.getOwner() != null}">
+            <span>Книга у </span> <span th:text = "${books.getOwner().getFirst_name() + ' ' + books.getOwner().getSurname() + ' ' + books.getOwner().getPatronymic()}">Person name</span>
+        </div>
+
+        <div th:if = "${books.getOwner() == null}">
+            <span>Книга свободна</span>
+        </div>
+        <hr/>
+
+    </div>
+</div>
+</body>
+</html>
