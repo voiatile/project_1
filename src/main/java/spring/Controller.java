@@ -90,7 +90,7 @@ public class Controller {
                              @RequestParam (value = "sort_by_year", required = false) boolean sort,
                              Model model) {
 
-        if (page == null || books_per_page == null || !sort) {
+        if (page == null || books_per_page == null) {
         model.addAttribute("books", bookService.show_all() ); }
         else   { model.addAttribute("books", bookService.pagination(page, books_per_page) ); }
 
