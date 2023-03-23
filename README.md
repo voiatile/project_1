@@ -16,6 +16,9 @@
   <h2>Архитектура</h2>
 <p><img src="https://user-images.githubusercontent.com/110664019/227276761-5795c669-d7e7-436d-8f65-94d285143ceb.png"/></p>
 
-  Контроллер
-  Сервисный слой
-  Бизнес-Логика
+  spring/Controller.java     - Контроллер
+  spring/BookService.java    - Сервисный слой (Бизнес-Логика)
+  spring/PeopleService.java  
+ 
+  spring/repositories/BookRepository.java   - cлой работы с БД
+  spring/repositories/PeopleRepository.java
