@@ -21,7 +21,7 @@
 <tr style="height: 36px;">
 <td style="width: 33.333333333333336%; height: 36px;"><strong>Контроллер</strong></td>
 <td style="width: 33.333333333333336%; height: 36px;"><strong>Сервисный слой (Бизнес-Логика)</strong></td>
-<td style="width: 33.333333333333336%; height: 36px;"><strong>cлой работы с БД</strong></td>
+<td style="width: 33.333333333333336%; height: 36px;"><strong>Слой работы с БД</strong></td>
 </tr>
 <tr style="height: 18px;">
 <td style="width: 33.333333333333336%; height: 18px;"><span>spring/Controller.java</span></td>
