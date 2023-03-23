@@ -13,3 +13,6 @@
 <li><a href="https://www.postgresql.org/docs/">PostgreSQL</a></li>
 </ul>
   <h2>Архитектура</h2>
+  Контроллер
+  Сервисный слой
+  Бизнес-Логика
