@@ -4,12 +4,11 @@
   
 <p>&nbsp;Технологии, которые использовались для реализации:</p>
 <ul dir="auto">
-<li>Java 18</li>
-<li>Maven</li>
-<li>Spring Boot</li>
-<li>Hibernate</li>
-<li>Spring Data JPA</li>
-<li>Spring Web</li>
-<li>Thymeleaf</li>
-<li>PostgreSQL</li>
+<li><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/module-summary.html">Java 18</a></li>
+<li><a href="https://maven.apache.org/guides/">Maven</a></li>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">Spring Boot</a></li>
+<li><a href="https://hibernate.org/orm/documentation/6.1/">Hibernate</a></li>
+<li><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/">Spring Data JPA</a></li>
+<li><a href="https://www.thymeleaf.org/documentation.html">Thymeleaf</a></li>
+<li><a href="https://www.postgresql.org/docs/">PostgreSQL</a></li>
 </ul>
