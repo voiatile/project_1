@@ -16,9 +16,32 @@
   <h2>Архитектура</h2>
 <p><img src="https://user-images.githubusercontent.com/110664019/227276761-5795c669-d7e7-436d-8f65-94d285143ceb.png"/></p>
 
-  spring/Controller.java     - Контроллер
-  spring/BookService.java    - Сервисный слой (Бизнес-Логика)
-  spring/PeopleService.java  
- 
-  spring/repositories/BookRepository.java   - cлой работы с БД
-  spring/repositories/PeopleRepository.java
+<table border="1" style="border-collapse: collapse; width: 100%; height: 108px;">
+<tbody>
+<tr style="height: 36px;">
+<td style="width: 33.333333333333336%; height: 36px;"><strong>Контроллер</strong></td>
+<td style="width: 33.333333333333336%; height: 36px;"><strong>Сервисный слой (Бизнес-Логика)</strong></td>
+<td style="width: 33.333333333333336%; height: 36px;"><strong>cлой работы с БД</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.333333333333336%; height: 18px;"><span>spring/Controller.java</span></td>
+<td style="width: 33.333333333333336%; height: 18px;"><span>spring/BookService.java </span></td>
+<td style="width: 33.333333333333336%; height: 18px;"><span>spring/repositories/BookRepository.java</span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+<td style="width: 33.333333333333336%; height: 18px;"><span>spring/PeopleService.java</span></td>
+<td style="width: 33.333333333333336%; height: 18px;"><span>spring/repositories/PeopleRepository.java</span></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+<td style="width: 33.333333333333336%; height: 18px;"></td>
+</tr>
+</tbody>
+</table>
