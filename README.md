@@ -10,7 +10,6 @@
 <li>Hibernate</li>
 <li>Spring Data JPA</li>
 <li>Spring Web</li>
-<li>Spring Security</li>
 <li>Thymeleaf</li>
 <li>PostgreSQL</li>
 </ul>
