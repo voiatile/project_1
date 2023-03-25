@@ -9,7 +9,8 @@
 
   
   <h1>Архитектура ПО</h1>
-<p><img src="https://user-images.githubusercontent.com/110664019/227276761-5795c669-d7e7-436d-8f65-94d285143ceb.png"/></p>
+  <h2>Описание архитектуры</h2>
+  <p><img src="https://user-images.githubusercontent.com/110664019/227276761-5795c669-d7e7-436d-8f65-94d285143ceb.png"/></p>
 
 <table border="1" style="border-collapse: collapse; width: 100%; height: 108px;">
 <tbody>
@@ -40,6 +41,9 @@
 </tr>
 </tbody>
 </table>
+<h2>Описание модулей и компонентов</h2>
+<h2>Диаграммы компонентов и взаимодействия</h2>
+
 <h1>Требования к ПО</h1>
 <h1>Инструкция пользователя</h1>
 <h1>Руководство системного администратора</h1>
