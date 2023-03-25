@@ -47,14 +47,13 @@ Java Runtime Environment (JRE) v.18
 3. Нажать на кнопку "Create!". <p> </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716171-bb7c9cf6-7789-4839-b7c2-75bed5b5ad62.png"/></p>
 
-Для регистрации новой книги необходимо:<p> </p>
+ <p><strong>Для регистрации новой книги необходимо:&nbsp;</strong></p>  <p> </p>
 1. Перейти на страницу </span><code>/books/new</code><span>  <p> </p>
 2. Заполнить форму с данными книги: название, автор, год издания<p> </p>
 3. Нажать на кнопку "Создать".<p> </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716335-29c93da8-efd3-4124-ac1a-1d39b8594f2a.png"/></p>
 
- 
-Для изменения данных о книге необходимо:
+ <p><strong>Для изменения данных о книге необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех книг </span><code>/books</code><span>  </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716532-dfc38fe6-e4f1-48fa-a324-219586b164b7.png"/></p>
 2. Найти нужную книгу в списке и выбрать ее. </p>
@@ -62,7 +61,7 @@ Java Runtime Environment (JRE) v.18
 3. Нажать на кнопку "Редактировать". </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716508-05d4280e-f426-4f29-a184-0028bae1bee5.png"/></p>
 
-Для изменения данных о читателе необходимо:
+ <p><strong>Для изменения данных о читателе необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех читателей </span><code>/people</code><span>  </p>
 <p><img src="https://user-images.githubusercontent.com/110664019/227716818-16394d76-4ace-4852-81eb-fdd6439aa913.png"/></p>
 2. Выбрать читателя в списке и перейти на страницу для внесения изменений</p>
