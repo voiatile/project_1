@@ -100,7 +100,8 @@ Java Runtime Environment (JRE) v.18
 <li>Создайте новую базу данных, введя команду: CREATE DATABASE first_db;</li>
 <li>Создайте нового пользователя, введя команду: CREATE USER postgres WITH PASSWORD 'admin';</li>
 <li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE first_db TO postgres;</li>
-</ul>
+<ol>
+<li>
 <p>Для создания таблицы Person выполните следующие шаги:</p>
 <ol>
 <li>
