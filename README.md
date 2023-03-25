@@ -97,9 +97,9 @@ Java Runtime Environment (JRE) v.18
 </ol>
 <ul>
 <li>Запустите программу psql, введя команду в командной строке: psql.</li>
-<li>Создайте новую базу данных, введя команду: CREATE DATABASE postgresql;</li>
-<li>Создайте нового пользователя, введя команду: CREATE USER admin WITH PASSWORD 'password';</li>
-<li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE postgresql TO admin;</li>
+<li>Создайте новую базу данных, введя команду: CREATE DATABASE first_db;</li>
+<li>Создайте нового пользователя, введя команду: CREATE USER postgres WITH PASSWORD 'admin';</li>
+<li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE first_db TO admin;</li>
 </ul>
 <ol start="4">
 <li>
@@ -122,9 +122,8 @@ Java Runtime Environment (JRE) v.18
 <p dir="auto"><em><strong>hibernate.connection.password=admin</strong></em> - указывает пароль пользователя, который будет использоваться при подключении к базе данных.</p>
 <p dir="auto"><em><strong>hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect</strong> </em>- указывает диалект базы данных postgresql, который будет использоваться Hibernate для выполнения запросов к базе данных.</p>
 <p dir="auto"><em><strong>hibernate.show_sql=true</strong></em> - указывает, что необходимо выводить SQL-запросы в логах приложения.</p>
-<p dir="auto">После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных postgresql.</p>
+<p dir="auto">После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных first_db.</p>
 
-После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных postgresql.
 
 
 
