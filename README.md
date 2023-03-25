@@ -85,74 +85,56 @@ Java Runtime Environment (JRE) v.18
 <h2>Описание процесса установки и настройки приложения</h2>
 <p>Описание процесса установки и настройки приложения BookTrack:</p>
 <ol>
-<li>
-<p>Загрузить и установить Java Runtime Environment (JRE) версии 8 или выше.</p>
-</li>
-<li>
-<p>Загрузить и установить PostgreSQL. Для установки PostgreSQL необходимо следовать инструкциям, предоставленным на официальном сайте.</p>
-</li>
-<li>
-<p>Создать базу данных. Для создания базы данных необходимо выполнить следующие шаги:</p>
-</li>
+<li>Загрузить и установить Java Runtime Environment (JRE) версии 8 или выше.</li>
+<li>Загрузить и установить PostgreSQL. Для установки PostgreSQL необходимо следовать инструкциям, предоставленным на официальном сайте.</li>
+<li>Создать базу данных. Для создания базы данных необходимо выполнить следующие шаги:</li>
 </ol>
 <ul>
 <li>Запустите программу psql, введя команду в командной строке: psql.</li>
 <li>Создайте новую базу данных, введя команду: CREATE DATABASE first_db;</li>
 <li>Создайте нового пользователя, введя команду: CREATE USER postgres WITH PASSWORD 'admin';</li>
 <li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE first_db TO postgres;</li>
-<ol>
-<li>
-<p>Для создания таблицы Person выполните следующие шаги:</p>
-<ol>
-<li>
-<p>Откройте программу psql и подключитесь к базе данных booktrack, используя команду \c booktrack.</p>
-</li>
-<li>
-<p>Создайте таблицу Person, используя следующую команду:</p>
-</li>
-</ol>
-<p>CREATE TABLE Person ( id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, patronymic VARCHAR(50), birth_year INTEGER );</p>
-<ol start="3">
-<li>Проверьте, что таблица Person была успешно создана, используя команду \d.</li>
-</ol>
-<p>Для создания таблицы Book выполните следующие шаги:</p>
-<ol>
-<li>
-<p>Откройте программу psql и подключитесь к базе данных booktrack, используя команду \c booktrack.</p>
-</li>
-<li>
-<p>Создайте таблицу Book, используя следующую команду:</p>
-</li>
-</ol>
-<p>CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</p>
-<ol start="3">
-<li>Проверьте, что таблица Book была успешно создана, используя команду \d.</li>
-</ol>
-<p>Обратите внимание, что в таблице Book добавлено поле person_id, которое является внешним ключом, ссылающимся на поле id таблицы Person. Это позволяет установить связь между таблицами Person и Book и выполнить запросы на выборку данных, связанных с определенным пользователем.</p>
-
+</ul>
 <ol start="4">
-<li>
-<p>Скачать и распаковать архив с приложением BookTrack.</p>
-</li>
-<li>
-<p>Запуск приложения. Для запуска приложения необходимо выполнить следующие шаги:</p>
-</li>
+<li>Дополнительно необходимо создать 2 таблицы со связью one-to-many.</li>
+</ol>
+<p>Для создания таблицы Person выполните следующие шаги:</p>
+<ul>
+<li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
+<li>Создайте таблицу Person, используя следующую команду:</li>
+</ul>
+<code>CREATE TABLE Person ( id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, patronymic VARCHAR(50), birth_year INTEGER );</code>
+<p>Проверьте, что таблица Person была успешно создана, используя команду \d.</p>
+<p>Для создания таблицы Book выполните следующие шаги:</p>
+<ul>
+<li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
+<li>Создайте таблицу Book, используя следующую команду:</li>
+</ul>
+<code>>CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</code>>
+<p>Проверьте, что таблица Book была успешно создана, используя команду \d.</p>
+<p>Обратите внимание, что в таблице Book добавлено поле person_id, которое является внешним ключом, ссылающимся на поле id таблицы Person. Это позволяет установить связь между таблицами Person и Book и выполнить запросы на выборку данных, связанных с определенным пользователем.</p>
+<ol start="5">
+<li>Скачать и распаковать архив с приложением BookTrack.</li>
+</ol>
+<ol>
+<li>Запуск приложения. Для запуска приложения необходимо выполнить следующие шаги:</li>
 </ol>
 <ul>
 <li>Открыть терминал в директории, в которую был распакован архив с приложением.</li>
-<li>Ввести команду: </span><code>java -jar booktrack.jar</code><span> </li>
+<li>Ввести команду:&nbsp;java -jar booktrack.jar</li>
 <li>При первом запуске приложение создаст необходимые таблицы в базе данных.</li>
 </ul>
-<ol start="6">
-<li>Настройка подключения к базе данных. Для настройки подключения к базе данных необходимо открыть файл  </span><code>hibernate.properties</code><span> , расположенный в директории с приложением, и ввести необходимые параметры подключения к базе данных:</li>
-<p dir="auto"><em><strong>hibernate.driver_class=org.postgresql.Driver</strong></em> - указывает драйвер, необходимый для подключения к базе данных postgresql.</p>
-<p dir="auto"><em><strong>hibernate.connection.url=jdbc:postgresql://localhost:5432/first_db</strong></em> - указывает URL-адрес базы данных, на которую будет выполняться подключение.</p>
-<p dir="auto"><em><strong>hibernate.connection.username=postgres</strong> </em>- указывает имя пользователя, который будет использоваться при подключении к базе данных.</p>
-<p dir="auto"><em><strong>hibernate.connection.password=admin</strong></em> - указывает пароль пользователя, который будет использоваться при подключении к базе данных.</p>
-<p dir="auto"><em><strong>hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect</strong> </em>- указывает диалект базы данных postgresql, который будет использоваться Hibernate для выполнения запросов к базе данных.</p>
-<p dir="auto"><em><strong>hibernate.show_sql=true</strong></em> - указывает, что необходимо выводить SQL-запросы в логах приложения.</p>
-<p dir="auto">После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных first_db.</p>
-
+<ol start="7">
+<li>Настройка подключения к базе данных. Для настройки подключения к базе данных необходимо открыть файл&nbsp;properties, расположенный в директории с приложением, и ввести необходимые параметры подключения к базе данных:</li>
+</ol>
+<p><strong><em>hibernate.driver_class=org.postgresql.Driver</em></strong>&nbsp;- указывает драйвер, необходимый для подключения к базе данных postgresql.</p>
+<p><strong><em>hibernate.connection.url=jdbc:postgresql://localhost:5432/first_db</em></strong>&nbsp;- указывает URL-адрес базы данных, на которую будет выполняться подключение.</p>
+<p><strong><em>hibernate.connection.username=postgres</em></strong><em>&nbsp;</em>- указывает имя пользователя, который будет использоваться при подключении к базе данных.</p>
+<p><strong><em>hibernate.connection.password=admin</em></strong>&nbsp;- указывает пароль пользователя, который будет использоваться при подключении к базе данных.</p>
+<p><strong><em>hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect</em></strong><em>&nbsp;</em>- указывает диалект базы данных postgresql, который будет использоваться Hibernate для выполнения запросов к базе данных.</p>
+<p><strong><em>hibernate.show_sql=true</em></strong>&nbsp;- указывает, что необходимо выводить SQL-запросы в логах приложения.</p>
+<p>После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных first_db.</p>
+<p>&nbsp;</p>
 
 
 
