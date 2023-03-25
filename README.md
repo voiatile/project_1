@@ -20,7 +20,7 @@ Java Runtime Environment (JRE) v.18
   <p> </p>
 СУБД PostgreSQL версии 9.6 или выше.
   <p> </p>
-Интернет-браузер с поддержкой JavaScript и HTML5, такой как Google Chrome, Mozilla Firefox или Safari.
+Интернет-браузер с поддержкой HTML5, такой как Google Chrome, Mozilla Firefox или Safari.
 <h2>Системные требования</h2>
 Процессор: двухъядерный процессор с частотой не менее 1,6 ГГц.
   <p> </p>
