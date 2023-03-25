@@ -64,7 +64,7 @@ Java Runtime Environment (JRE) v.18
  <p><strong>Для изменения данных о книге необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех книг </span><code>localhost:8080/books</code><span>  </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716532-dfc38fe6-e4f1-48fa-a324-219586b164b7.png"/></p>
-2. Найти нужную книгу в списке и выбрать ее. </p>
+2. Найти нужную книгу в списке и выбрать ее путем нажатия левой кнопкой мыши. </p>
 3. Изменить нужные данные в форме. </p>
 3. Нажать на кнопку "Редактировать". </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716508-05d4280e-f426-4f29-a184-0028bae1bee5.png"/></p>
