@@ -111,7 +111,7 @@ Java Runtime Environment (JRE) v.18
 </ol>
 <ul>
 <li>Открыть терминал в директории, в которую был распакован архив с приложением.</li>
-<li>Ввести команду: java -jar booktrack.jar</li>
+<li>Ввести команду: </span><code>java -jar booktrack.jar</code><span> </li>
 <li>При первом запуске приложение создаст необходимые таблицы в базе данных.</li>
 </ul>
 <ol start="6">
