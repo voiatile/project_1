@@ -108,7 +108,7 @@ Java Runtime Environment (JRE) v.18
 <li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE first_db TO postgres;</li>
 </ul>
 <ol start="4">
-<li>Дополнительно необходимо создать 2 таблицы со связью one-to-many.</li>
+<li>В созданной базе данных first_db необходимо создать 2 таблицы со связью one-to-many.</li>
 </ol>
 <p>Для создания таблицы Person выполните следующие шаги:</p>
 <ul>
