@@ -170,35 +170,26 @@ Java Runtime Environment (JRE) v.18
 
 <p><img src="https://user-images.githubusercontent.com/110664019/227276761-5795c669-d7e7-436d-8f65-94d285143ceb.png"/></p>
 На диаграмме компонентов видно, что контроллер взаимодействует с сервисным слоем, который в свою очередь взаимодействует со слоем работы с БД.
-<table border="1" style="border-collapse: collapse; width: 100%; height: 108px;">
+<table border="1" style="margin-left: auto; margin-right: auto;">
 <tbody>
-<tr style="height: 36px;">
-<td style="width: 33.333333333333336%; height: 36px;"><strong>Контроллер</strong></td>
-<td style="width: 33.333333333333336%; height: 36px;"><strong>Сервисный слой (Бизнес-Логика)</strong></td>
-<td style="width: 33.333333333333336%; height: 36px;"><strong>Слой работы с БД</strong></td>
+<tr>
+<td><strong>Контроллер</strong></td>
+<td><strong>Сервисный слой (Бизнес-Логика)</strong></td>
+<td><strong>Слой работы с БД</strong></td>
 </tr>
-<tr style="height: 18px;">
-<td style="width: 33.333333333333336%; height: 18px;"><span>spring/Controller.java</span></td>
-<td style="width: 33.333333333333336%; height: 18px;"><span>spring/BookService.java </span></td>
-<td style="width: 33.333333333333336%; height: 18px;"><span>spring/repositories/BookRepository.java</span></td>
+<tr>
+<td><span>spring/Controller.java</span></td>
+<td><span>spring/BookService.java </span></td>
+<td><span>spring/repositories/BookRepository.java</span></td>
 </tr>
-<tr style="height: 18px;">
-<td style="width: 33.333333333333336%; height: 18px;"></td>
-<td style="width: 33.333333333333336%; height: 18px;"><span>spring/PeopleService.java</span></td>
-<td style="width: 33.333333333333336%; height: 18px;"><span>spring/repositories/PeopleRepository.java</span></td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 33.333333333333336%; height: 18px;"></td>
-<td style="width: 33.333333333333336%; height: 18px;"></td>
-<td style="width: 33.333333333333336%; height: 18px;"></td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 33.333333333333336%; height: 18px;"></td>
-<td style="width: 33.333333333333336%; height: 18px;"></td>
-<td style="width: 33.333333333333336%; height: 18px;"></td>
+<tr>
+<td></td>
+<td><span>spring/PeopleService.java</span></td>
+<td><span>spring/repositories/PeopleRepository.java</span></td>
 </tr>
 </tbody>
 </table>
+
 <h2>Описание модулей и компонентов</h2>
 <h2>Диаграммы компонентов и взаимодействия</h2>
  <h2>Тестирование ПО</h2>
