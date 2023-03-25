@@ -103,20 +103,18 @@ Java Runtime Environment (JRE) v.18
 <li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
 <li>Создайте таблицу Person, используя следующую команду:</li>
 </ul>
-<code>CREATE TABLE Person ( id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, patronymic VARCHAR(50), birth_year INTEGER );</code>
+<p><code>CREATE TABLE Person ( id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, patronymic VARCHAR(50), birth_year INTEGER );</code></p>
 <p>Проверьте, что таблица Person была успешно создана, используя команду \d.</p>
 <p>Для создания таблицы Book выполните следующие шаги:</p>
 <ul>
 <li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
 <li>Создайте таблицу Book, используя следующую команду:</li>
 </ul>
-<code>>CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</code>>
+<p><code>&gt;CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</code>&gt;</p>
 <p>Проверьте, что таблица Book была успешно создана, используя команду \d.</p>
 <p>Обратите внимание, что в таблице Book добавлено поле person_id, которое является внешним ключом, ссылающимся на поле id таблицы Person. Это позволяет установить связь между таблицами Person и Book и выполнить запросы на выборку данных, связанных с определенным пользователем.</p>
 <ol start="5">
 <li>Скачать и распаковать архив с приложением BookTrack.</li>
-<ol>
-<ol>
 <li>Запуск приложения. Для запуска приложения необходимо выполнить следующие шаги:</li>
 </ol>
 <ul>
@@ -135,8 +133,6 @@ Java Runtime Environment (JRE) v.18
 <p><strong><em>hibernate.show_sql=true</em></strong>&nbsp;- указывает, что необходимо выводить SQL-запросы в логах приложения.</p>
 <p>После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных first_db.</p>
 <p>&nbsp;</p>
-
-
 
 <h2>Инструкции по установке и настройке приложения на удаленном сервере</h2>
 Здесь должно быть приведено подробное описание шагов, которые необходимо выполнить для установки приложения на удаленный сервер. Это может включать в себя установку необходимых компонентов, копирование файлов, настройку параметров приложения и т.д.
