@@ -43,7 +43,7 @@ Java Runtime Environment (JRE) v.18
 В данном разделе приведены инструкции по регистрации, просмотру, изменению и удалению книг и читателей в приложении BookTrack. <p> </p>
  
 Для просмотра всех зарегестрированных читателей необходимо перейти на главную страницу приложения по адресу </span><code>people/</code><span> 
-  <p><img src="https://user-images.githubusercontent.com/110664019/227717267-17ac3751-8961-4a3e-bb48-27c91a76c612.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227717389-b9e790c2-290b-4f68-bca4-8c3c7b0ea370.png"/></p>
 
 <p><strong>Для регистрации нового читателя необходимо:&nbsp;</strong></p>  <p> </p>
 1. Перейти на главную страницу приложения  </span><code>/people</code><span>  <p> </p>
