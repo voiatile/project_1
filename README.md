@@ -110,14 +110,14 @@ Java Runtime Environment (JRE) v.18
 <ol start="4">
 <li>В созданной базе данных first_db необходимо создать 2 таблицы со связью one-to-many.</li>
 </ol>
-<p>Для создания таблицы Person выполните следующие шаги:</p>
+<p>Для создания таблицы <p><strong>Person&nbsp;</strong></p>   выполните следующие шаги:</p>
 <ul>
 <li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
 <li>Создайте таблицу Person, используя следующую команду:</li>
 </ul>
 <p><code>CREATE TABLE Person ( id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, patronymic VARCHAR(50), birth_year INTEGER );</code></p>
 <p>Проверьте, что таблица Person была успешно создана, используя команду \d.</p>
-<p>Для создания таблицы Book выполните следующие шаги:</p>
+<p>Для создания таблицы <p><strong>Book&nbsp;</strong></p>  выполните следующие шаги:</p>
 <ul>
 <li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
 <li>Создайте таблицу Book, используя следующую команду:</li>
