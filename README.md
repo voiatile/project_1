@@ -67,7 +67,7 @@ Java Runtime Environment (JRE) v.18
 2. Найти нужную книгу в списке и выбрать ее путем нажатия левой кнопкой мыши. </p>
 3. Изменить нужные данные в форме. </p>
 3. Нажать на кнопку </span><code>Редактировать</code><span>. </p>
- <p><img src="https://user-images.githubusercontent.com/110664019/227716508-05d4280e-f426-4f29-a184-0028bae1bee5.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227724102-e6458956-8790-4a28-b65a-150ab5c977ab.png"/></p>
 
  <p><strong>Для изменения данных о читателе необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех читателей </span><code>localhost:8080/people</code><span>  </p>
