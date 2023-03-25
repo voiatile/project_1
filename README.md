@@ -59,7 +59,7 @@ Java Runtime Environment (JRE) v.18
 1. Перейти на страницу </span><code>localhost:8080/books/new</code><span>  <p> </p>
 2. Заполнить форму с данными книги: название, автор, год издания<p> </p>
 3. Нажать на кнопку </span><code>Создать!</code><span>  <p> </p>
- <p><img src="https://user-images.githubusercontent.com/110664019/227716335-29c93da8-efd3-4124-ac1a-1d39b8594f2a.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227724039-36c99a42-8b16-4fe9-beff-b5e858f39883.png"/></p>
 
  <p><strong>Для изменения данных о книге необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех книг </span><code>localhost:8080/books</code><span>  </p>
