@@ -53,7 +53,7 @@ Java Runtime Environment (JRE) v.18
 2. Нажать кнопку  </span><code>Добавить человека</code><span>    <p> </p>
 2. Заполнить форму с данными читателя: ФИО, год рождения. <p> </p>
 3. Нажать на кнопку </span><code>Create!</code><span>   <p> </p>
- <p><img src="https://user-images.githubusercontent.com/110664019/227716171-bb7c9cf6-7789-4839-b7c2-75bed5b5ad62.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227723944-aa2e4d07-1366-4743-8c56-149152f8142f.png"/></p>
 
  <p><strong>Для регистрации новой книги необходимо:&nbsp;</strong></p>  <p> </p>
 1. Перейти на страницу </span><code>localhost:8080/books/new</code><span>  <p> </p>
