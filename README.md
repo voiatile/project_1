@@ -101,6 +101,34 @@ Java Runtime Environment (JRE) v.18
 <li>Создайте нового пользователя, введя команду: CREATE USER postgres WITH PASSWORD 'admin';</li>
 <li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE first_db TO postgres;</li>
 </ul>
+<p>Для создания таблицы Person выполните следующие шаги:</p>
+<ol>
+<li>
+<p>Откройте программу psql и подключитесь к базе данных booktrack, используя команду \c booktrack.</p>
+</li>
+<li>
+<p>Создайте таблицу Person, используя следующую команду:</p>
+</li>
+</ol>
+<p>CREATE TABLE Person ( id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, surname VARCHAR(50) NOT NULL, patronymic VARCHAR(50), birth_year INTEGER );</p>
+<ol start="3">
+<li>Проверьте, что таблица Person была успешно создана, используя команду \d.</li>
+</ol>
+<p>Для создания таблицы Book выполните следующие шаги:</p>
+<ol>
+<li>
+<p>Откройте программу psql и подключитесь к базе данных booktrack, используя команду \c booktrack.</p>
+</li>
+<li>
+<p>Создайте таблицу Book, используя следующую команду:</p>
+</li>
+</ol>
+<p>CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</p>
+<ol start="3">
+<li>Проверьте, что таблица Book была успешно создана, используя команду \d.</li>
+</ol>
+<p>Обратите внимание, что в таблице Book добавлено поле person_id, которое является внешним ключом, ссылающимся на поле id таблицы Person. Это позволяет установить связь между таблицами Person и Book и выполнить запросы на выборку данных, связанных с определенным пользователем.</p>
+
 <ol start="4">
 <li>
 <p>Скачать и распаковать архив с приложением BookTrack.</p>
