@@ -6,18 +6,9 @@
 <h2>Целевая аудитория</h2>
 
   <p> </p>
-<h2>Технологии, которые использовались для реализации:</h2>
-<ul dir="auto">
-<li><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/module-summary.html">Java 18</a></li>
-<li><a href="https://maven.apache.org/guides/">Maven</a></li>
-<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">Spring Boot</a></li>
-<li><a href="https://hibernate.org/orm/documentation/6.1/">Hibernate</a></li>
-<li><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/">Spring Data JPA</a></li>
-<li><a href="https://www.thymeleaf.org/documentation.html">Thymeleaf</a></li>
-<li><a href="https://www.postgresql.org/docs/">PostgreSQL</a></li>
-</ul>
+
   
-  <h2>Архитектура ПО</h2>
+  <h1>Архитектура ПО</h1>
 <p><img src="https://user-images.githubusercontent.com/110664019/227276761-5795c669-d7e7-436d-8f65-94d285143ceb.png"/></p>
 
 <table border="1" style="border-collapse: collapse; width: 100%; height: 108px;">
@@ -54,4 +45,14 @@
 <h1>Руководство системного администратора</h1>
 <h1>Тестирование ПО</h1>
 <h1>Список использованных технологий</h1>
+  <h2>Технологии, которые использовались для реализации:</h2>
+<ul dir="auto">
+<li><a href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/module-summary.html">Java 18</a></li>
+<li><a href="https://maven.apache.org/guides/">Maven</a></li>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/">Spring Boot</a></li>
+<li><a href="https://hibernate.org/orm/documentation/6.1/">Hibernate</a></li>
+<li><a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/">Spring Data JPA</a></li>
+<li><a href="https://www.thymeleaf.org/documentation.html">Thymeleaf</a></li>
+<li><a href="https://www.postgresql.org/docs/">PostgreSQL</a></li>
+</ul>
 <h1>Список литературы</h1>
