@@ -44,6 +44,10 @@ Java Runtime Environment (JRE) v.18
  
 <p><strong>Для просмотра всех зарегестрированных читателей необходимо перейти на главную страницу приложения по адресу&nbsp;</strong></p>  </span><code>/people</code><span> 
  <p><img src="https://user-images.githubusercontent.com/110664019/227717389-b9e790c2-290b-4f68-bca4-8c3c7b0ea370.png"/></p>
+ 
+  
+<p><strong>Для просмотра всех книг необходимо перейти на главную страницу приложения по адресу&nbsp;</strong></p>  </span><code>/books</code><span> 
+ <p><img src="https://user-images.githubusercontent.com/110664019/227717536-6b6b1ba2-1e39-4801-98e3-36621889de90.png"/></p>
 
 <p><strong>Для регистрации нового читателя необходимо:&nbsp;</strong></p>  <p> </p>
 1. Перейти на главную страницу приложения  </span><code>/people</code><span>  <p> </p>
