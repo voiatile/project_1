@@ -46,7 +46,7 @@ Java Runtime Environment (JRE) v.18
  
   
 <p><strong>Для просмотра всех книг необходимо перейти по адресу&nbsp;</strong>  </span><code>localhost:8080/books</code><span> 
- <p><img src="https://user-images.githubusercontent.com/110664019/227717536-6b6b1ba2-1e39-4801-98e3-36621889de90.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227724839-71963374-e68f-45fa-b78c-431236898ba9.png"/></p>
 
 <p><strong>Для регистрации нового читателя необходимо:&nbsp;</strong></p>  <p> </p>
 1. Перейти в адресной строке браузера по адресу  </span><code>localhost:8080/people</code><span>  <p> </p>
@@ -63,7 +63,7 @@ Java Runtime Environment (JRE) v.18
 
  <p><strong>Для изменения данных о книге необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех книг </span><code>localhost:8080/books</code><span>  </p>
- <p><img src="https://user-images.githubusercontent.com/110664019/227716532-dfc38fe6-e4f1-48fa-a324-219586b164b7.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227724839-71963374-e68f-45fa-b78c-431236898ba9.png"/></p>
 2. Найти нужную книгу в списке и выбрать ее путем нажатия левой кнопкой мыши. </p>
 3. Изменить нужные данные в форме. </p>
 3. Нажать на кнопку </span><code>Update!</code><span>. </p>
