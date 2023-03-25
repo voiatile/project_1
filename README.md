@@ -134,7 +134,7 @@ Java Runtime Environment (JRE) v.18
 <li>Ввести команду:&nbsp;<em>java -jar booktrack.jar</em></li>
 </ul>
 <ol start="7" dir="auto">
-<li>Настройте подключение к базе данных. Для настройки подключения к базе данных необходимо открыть файл&nbsp;hibernate.properties, расположенный в директории с приложением, и ввести необходимые параметры подключения к базе данных:</li>
+<li>Настройте подключение к базе данных. Для настройки подключения к базе данных необходимо открыть файл&nbsp;hibernate.properties, расположенный в директории с приложением и ввести необходимые параметры подключения к базе данных:</li>
 </ol>
 <p dir="auto"><strong><em>hibernate.driver_class=org.postgresql.Driver</em></strong>&nbsp;- указывает драйвер, необходимый для подключения к базе данных postgresql.</p>
 <p dir="auto"><strong><em>hibernate.connection.url=jdbc:postgresql://localhost:5432/first_db</em></strong>&nbsp;- указывает URL-адрес базы данных, на которую будет выполняться подключение.</p>
