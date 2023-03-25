@@ -75,6 +75,6 @@
 <li><a href="https://www.thymeleaf.org/documentation.html">Thymeleaf</a></li>
 <li><a href="https://www.postgresql.org/docs/">PostgreSQL</a></li>
 </ul>
- <h1>Версии используемых библиотек и фреймворков</h1> 
+ <h2>Версии используемых библиотек и фреймворков</h2> 
 <h1>Список литературы</h1>
   <h2>Список использованной литературы и ресурсов</h2>
