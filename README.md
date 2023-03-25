@@ -62,6 +62,13 @@ Java Runtime Environment (JRE) v.18
 3. Нажать на кнопку "Редактировать". </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716508-05d4280e-f426-4f29-a184-0028bae1bee5.png"/></p>
 
+Для изменения данных о читателе необходимо:
+1. Перейти на страницу со списком всех читателей </span><code>/people</code><span>  </p>
+<p><img src="https://user-images.githubusercontent.com/110664019/227716818-16394d76-4ace-4852-81eb-fdd6439aa913.png"/></p>
+2. Выбрать читателя в списке и перейти на страницу для внеесния изменений</p>
+3. Изменить нужные данные в форме. </p>
+3. Нажать на кнопку "Редактировать". </p>
+<p><img src="https://user-images.githubusercontent.com/110664019/227716910-dd002d1b-75d2-41da-a62f-7881e19db96c.png"/></p>
  
  
 <h2>Инструкция по выдаче и возврату книг</h2>
