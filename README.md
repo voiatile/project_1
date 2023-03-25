@@ -58,7 +58,7 @@ Java Runtime Environment (JRE) v.18
  <p><strong>Для регистрации новой книги необходимо:&nbsp;</strong></p>  <p> </p>
 1. Перейти на страницу </span><code>localhost:8080/books/new</code><span>  <p> </p>
 2. Заполнить форму с данными книги: название, автор, год издания<p> </p>
-3. Нажать на кнопку "Создать".<p> </p>
+3. Нажать на кнопку </span><code>Создать!</code><span>  <p> </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716335-29c93da8-efd3-4124-ac1a-1d39b8594f2a.png"/></p>
 
  <p><strong>Для изменения данных о книге необходимо:&nbsp;</strong></p>  
@@ -66,7 +66,7 @@ Java Runtime Environment (JRE) v.18
  <p><img src="https://user-images.githubusercontent.com/110664019/227716532-dfc38fe6-e4f1-48fa-a324-219586b164b7.png"/></p>
 2. Найти нужную книгу в списке и выбрать ее путем нажатия левой кнопкой мыши. </p>
 3. Изменить нужные данные в форме. </p>
-3. Нажать на кнопку "Редактировать". </p>
+3. Нажать на кнопку </span><code>Редактировать</code><span>. </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227716508-05d4280e-f426-4f29-a184-0028bae1bee5.png"/></p>
 
  <p><strong>Для изменения данных о читателе необходимо:&nbsp;</strong></p>  
@@ -74,7 +74,7 @@ Java Runtime Environment (JRE) v.18
 <p><img src="https://user-images.githubusercontent.com/110664019/227716818-16394d76-4ace-4852-81eb-fdd6439aa913.png"/></p>
 2. Выбрать читателя в списке и выбрать его путем нажатия левой кнопкой мыши</p>
 3. Изменить нужные данные в форме. </p>
-3. Нажать на кнопку "Редактировать". </p>
+3. Нажать на кнопку </span><code>Редактировать</code><span>. </p>
 <p><img src="https://user-images.githubusercontent.com/110664019/227716910-dd002d1b-75d2-41da-a62f-7881e19db96c.png"/></p>
  
  
