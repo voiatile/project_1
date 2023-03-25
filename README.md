@@ -49,7 +49,7 @@ Java Runtime Environment (JRE) v.18
  <p><img src="https://user-images.githubusercontent.com/110664019/227717536-6b6b1ba2-1e39-4801-98e3-36621889de90.png"/></p>
 
 <p><strong>Для регистрации нового читателя необходимо:&nbsp;</strong></p>  <p> </p>
-1. Перейти в адресной строке браузера перейти по адресу  </span><code>localhost:8080/people</code><span>  <p> </p>
+1. Перейти в адресной строке браузера по адресу  </span><code>localhost:8080/people</code><span>  <p> </p>
 2. Нажать кнопку  </span><code>"Добавить человека"</code><span>    <p> </p>
 2. Заполнить форму с данными читателя: ФИО, год рождения. <p> </p>
 3. Нажать на кнопку </span><code>Create!</code><span>   <p> </p>
