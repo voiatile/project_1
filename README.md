@@ -97,9 +97,9 @@ Java Runtime Environment (JRE) v.18
 </ol>
 <ul>
 <li>Запустите программу psql, введя команду в командной строке: psql.</li>
-<li>Создайте новую базу данных, введя команду: CREATE DATABASE booktrack;</li>
-<li>Создайте нового пользователя, введя команду: CREATE USER booktrackuser WITH PASSWORD 'password';</li>
-<li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE booktrack TO booktrackuser;</li>
+<li>Создайте новую базу данных, введя команду: CREATE DATABASE postgresql;</li>
+<li>Создайте нового пользователя, введя команду: CREATE USER admin WITH PASSWORD 'password';</li>
+<li>Предоставьте пользователю права на базу данных, введя команду: GRANT ALL PRIVILEGES ON DATABASE postgresql TO admin;</li>
 </ul>
 <ol start="4">
 <li>
@@ -116,18 +116,13 @@ Java Runtime Environment (JRE) v.18
 </ul>
 <ol start="6">
 <li>Настройка подключения к базе данных. Для настройки подключения к базе данных необходимо открыть файл hibernate.properties, расположенный в директории с приложением, и ввести необходимые параметры подключения к базе данных:</li>
-
-hibernate.driver_class=org.postgresql.Driver - указывает драйвер, необходимый для подключения к базе данных postgresql.
-
-hibernate.connection.url=jdbc:postgresql://localhost:5432/first_db - указывает URL-адрес базы данных, на которую будет выполняться подключение.
-
-hibernate.connection.username=postgres - указывает имя пользователя, который будет использоваться при подключении к базе данных.
-
-hibernate.connection.password=admin - указывает пароль пользователя, который будет использоваться при подключении к базе данных.
-
-hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect - указывает диалект базы данных postgresql, который будет использоваться Hibernate для выполнения запросов к базе данных.
-
-hibernate.show_sql=true - указывает, что необходимо выводить SQL-запросы в логах приложения.
+<p dir="auto"><em><strong>hibernate.driver_class=org.postgresql.Driver</strong></em> - указывает драйвер, необходимый для подключения к базе данных postgresql.</p>
+<p dir="auto"><em><strong>hibernate.connection.url=jdbc:postgresql://localhost:5432/first_db</strong></em> - указывает URL-адрес базы данных, на которую будет выполняться подключение.</p>
+<p dir="auto"><em><strong>hibernate.connection.username=postgres</strong> </em>- указывает имя пользователя, который будет использоваться при подключении к базе данных.</p>
+<p dir="auto"><em><strong>hibernate.connection.password=admin</strong></em> - указывает пароль пользователя, который будет использоваться при подключении к базе данных.</p>
+<p dir="auto"><em><strong>hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect</strong> </em>- указывает диалект базы данных postgresql, который будет использоваться Hibernate для выполнения запросов к базе данных.</p>
+<p dir="auto"><em><strong>hibernate.show_sql=true</strong></em> - указывает, что необходимо выводить SQL-запросы в логах приложения.</p>
+<p dir="auto">После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных postgresql.</p>
 
 После того, как все параметры настроены, приложение BookTrack будет готово к работе с базой данных postgresql.
 
