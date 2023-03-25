@@ -75,7 +75,7 @@ Java Runtime Environment (JRE) v.18
 2. Найти нужного читателя в списке и выбрать его путем нажатия левой кнопкой мыши</p>
 3. Изменить нужные данные в форме. </p>
 3. Нажать на кнопку </span><code>Update!</code><span>. </p>
-<p><img src="https://user-images.githubusercontent.com/110664019/227716910-dd002d1b-75d2-41da-a62f-7881e19db96c.png"/></p>
+<p><img src="https://user-images.githubusercontent.com/110664019/227723814-2c24c6ad-6724-42ad-8835-26f638f2d652.png"/></p>
  
 <h2>Инструкция по выдаче и возврату книг</h2>
 <h2>Описание пагинации и сортировки</h2>
