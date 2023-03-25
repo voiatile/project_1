@@ -66,7 +66,7 @@ Java Runtime Environment (JRE) v.18
  <p><img src="https://user-images.githubusercontent.com/110664019/227716532-dfc38fe6-e4f1-48fa-a324-219586b164b7.png"/></p>
 2. Найти нужную книгу в списке и выбрать ее путем нажатия левой кнопкой мыши. </p>
 3. Изменить нужные данные в форме. </p>
-3. Нажать на кнопку </span><code>Редактировать</code><span>. </p>
+3. Нажать на кнопку </span><code>Update!</code><span>. </p>
  <p><img src="https://user-images.githubusercontent.com/110664019/227724102-e6458956-8790-4a28-b65a-150ab5c977ab.png"/></p>
 
  <p><strong>Для изменения данных о читателе необходимо:&nbsp;</strong></p>  
@@ -74,7 +74,7 @@ Java Runtime Environment (JRE) v.18
 <p><img src="https://user-images.githubusercontent.com/110664019/227723814-2c24c6ad-6724-42ad-8835-26f638f2d652.png"/></p>
 2. Найти нужного читателя в списке и выбрать его путем нажатия левой кнопкой мыши</p>
 3. Изменить нужные данные в форме. </p>
-3. Нажать на кнопку </span><code>Редактировать</code><span>. </p>
+3. Нажать на кнопку </span><code>Update!</code><span>. </p>
 <p><img src="https://user-images.githubusercontent.com/110664019/227716910-dd002d1b-75d2-41da-a62f-7881e19db96c.png"/></p>
  
 <h2>Инструкция по выдаче и возврату книг</h2>
