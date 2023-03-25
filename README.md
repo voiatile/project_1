@@ -110,7 +110,7 @@ Java Runtime Environment (JRE) v.18
 <li>Откройте программу psql и подключитесь к базе данных first_db, используя команду \c first_db.</li>
 <li>Создайте таблицу Book, используя следующую команду:</li>
 </ul>
-<p><code>&gt;CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</code>&gt;</p>
+<p><code>CREATE TABLE Book ( book_id SERIAL PRIMARY KEY, title VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, year INTEGER NOT NULL, person_id INTEGER REFERENCES Person(id) );</code></p>
 <p>Проверьте, что таблица Book была успешно создана, используя команду \d.</p>
 <p>Обратите внимание, что в таблице Book добавлено поле person_id, которое является внешним ключом, ссылающимся на поле id таблицы Person. Это позволяет установить связь между таблицами Person и Book и выполнить запросы на выборку данных, связанных с определенным пользователем.</p>
 <ol start="5">
