@@ -42,7 +42,7 @@ Java Runtime Environment (JRE) v.18
 <h2>Инструкция по добавлению, изменению и удалению книг и читателей</h2>
 В данном разделе приведены инструкции по регистрации, просмотру, изменению и удалению книг и читателей в приложении BookTrack. <p> </p>
 После запуска веб-приложения BookTrack и успешного соединения с базой данных автоматически откроется новое окно в браузере с главной страницей приложения  </span><code>localhost:8080/people</code><span>, где можно увидеть список всех читателей.
- <p><img src="https://user-images.githubusercontent.com/110664019/227717389-b9e790c2-290b-4f68-bca4-8c3c7b0ea370.png"/></p>
+ <p><img src="https://user-images.githubusercontent.com/110664019/227725143-8b0dbb2f-071a-4dc1-92c0-899175c9842d.png"/></p>
  
   
 <p><strong>Для просмотра всех книг необходимо перейти по адресу&nbsp;</strong>  </span><code>localhost:8080/books</code><span> 
@@ -71,7 +71,7 @@ Java Runtime Environment (JRE) v.18
 
  <p><strong>Для изменения данных о читателе необходимо:&nbsp;</strong></p>  
 1. Перейти на страницу со списком всех читателей </span><code>localhost:8080/people</code><span>  </p>
-<p><img src="https://user-images.githubusercontent.com/110664019/227717389-b9e790c2-290b-4f68-bca4-8c3c7b0ea370.png"/></p>
+<p><img src="https://user-images.githubusercontent.com/110664019/227725158-dd31442b-a643-43bc-a166-1baaa49e46bf.png"/></p>
 2. Найти нужного читателя в списке и выбрать его путем нажатия левой кнопкой мыши</p>
 3. Изменить нужные данные в форме. </p>
 3. Нажать на кнопку </span><code>Update!</code><span>. </p>
